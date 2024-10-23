@@ -1,0 +1,73 @@
+.footerBC {
+  margin-top: 0;
+}
+
+.footerIconText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-main);
+  margin-bottom: 21px;
+}
+
+.footerName {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 15px;
+}
+
+.footerJoin {
+  color: var(--color-main);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 15px;
+}
+
+.footerLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  cursor: pointer;
+}
+
+.footerLinkText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.footerBox {
+  margin: 20px 0px -30px 0px;
+  width: 224px;
+  height: 25px;
+  background: var(--color-main);
+}
+
+.openseaIcon {
+  filter: invert(42%) sepia(43%) saturate(100%) hue-rotate(37deg) brightness(110%) contrast(319%);
+  margin: 0px 0px 0px 0px;
+}
+
+.footerIcon{
+  filter: invert(42%) sepia(43%) saturate(100%) hue-rotate(37deg) brightness(110%) contrast(319%);
+  margin: 0px 0px 0px 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerContainer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
