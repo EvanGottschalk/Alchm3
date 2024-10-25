@@ -66,7 +66,7 @@ const Team = () => {
                 rel="noreferrer">
                   Suzie Silver
               </a>
-              <div className='teamItemPosition'>Catt, Lead Whore</div>
+              <div className='teamItemPosition'>Cat, Lead Whore</div>
             </div>
           </div>
         </div>
